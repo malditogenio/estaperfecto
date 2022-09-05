@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;600&display=swap');
+
+$azul: #276CFE;
+$blanco: #FFFFFF;
+$naranja:#F8AF3C;
+$negro: #171B26;
+$gris: #5B5E66;
+$light:200;
+$normal:400;
+$bold:600;
+$semibold:400;
+$work:'Work Sans', sans-serif;
+
+body{
+	color:$negro;
+	font-family: arial, sans-serif;
+	font-size: 16px;
+}
+cite{
+	color:$naranja;
+	font-weight: $bold;
+
+}
+
+h1, h2, h3, h4, h5, .btn{
+	font-family: $work;
+}
+
+h5{
+	color: $azul;
+	font-size: 1.25rem;
+	font-weight: $bold;
+}
+
+header{
+	a{
+		text-decoration: none;
+		font-family: $work;
+		font-weight: $bold;
+	}
+	ul{
+		list-style-type: none;
+		padding-left: 0;
+	}
+	.i-tel{
+			width: 16px;
+			margin-right: 8px;
+			::before{
+				content: " ";
+			}
+	}
+}
+
+section, footer{
+	padding: 3em 0;
+}
+
+#hero{
+	padding: 4vh 0 0 ;
+	aside{
+		margin: 2em 0 0 0;
+		h5{
+			font-size: 0.8em;
+			font-weight: $bold;
+			color: $negro;
+		}
+	}
+	h1{
+		line-height: 1.1em;
+	}
+	p{
+		line-height: 1.6em;
+		color: $gris;
+	}
+	#disclaimer{
+		padding-top: .6em;
+		padding-bottom: 2em;
+	}
+	.main-btn{
+		padding: .6em 3em .7em;
+	}
+}
+
+
+#como-funciona{
+	padding-bottom: 0;
+	.torre-b{
+		position: relative;
+		margin: 0 auto;
+	}
+}
+
+#contacto{
+	background: $azul;
+	background: -webkit-linear-gradient(to right, #0072ff, $azul);
+	background: linear-gradient(to right, #0072ff, $azul);
+	color: $blanco;
+	padding: 0 ;
+	h3{
+		text-align: center;
+	}
+	p{
+		font-size: 1.3rem;
+		font-family:$work;
+		line-height: 1.6em;
+	}
+	#formulario-prospeccion{
+		background: $blanco;
+		border-radius: 6px 6px 0 0;
+		color: $negro;
+		padding: 1.6em;
+	}
+}
+
+#cursos, #testimonales{
+		background: #F6F9FB;
+}
+
+#cursos{
+	h2, h3{
+		text-align: center;
+	}
+	h3{
+		font-size: 1em;
+	}
+	h4{
+		padding-top: 1em;
+	}
+	p{
+		color: $gris;
+		line-height: 1.6em;
+	}
+	.card{
+		min-height: 400px;
+		position: relative;
+		.card-body{
+			padding: 2em;
+		}
+		.btn{
+			position: absolute;
+			bottom: 2em;
+		}
+	}
+}
+
+
+#footer{
+	background: $negro;
+	color: $blanco;
+}
+
+#logo{
+	width: 80%;
+}
+
+#testimonales{
+	padding: 0em 0 4em;
+	.card{
+		background: #171B26;
+		max-width: 100%;
+		margin: auto;
+		padding-bottom: 4em;
+		cite{
+			padding: 0em 1em;
+
+			font-family: $work;
+			font-style: normal;
+			font-style: 1rem;
+		}
+		p{
+			color:$blanco;
+			font-size: 1.1rem;
+			padding: 1.4em 1.4em 1em 1.4em;
+		}
+		.card-body{
+			padding: 0;
+		}
+	}
+}
+
+.card{
+	border: 0;
+}
+
+.bold{
+	font-weight: $bold;
+}
+
+.btn{
+	padding: .6em 1em .7em;
+	border-radius: 100px;
+	font-weight: $bold;
+}
+
+.main-btn{
+	background: $azul;
+	color: $blanco;
+	box-shadow: 0 6px 7px -4px rgba(0,0,0,0.20), 0 11px 15px 1px rgba(0,0,0,0.14);
+}
+.numbers{
+	font-weight: $bold;
+}
+
+.p--xs{
+	font-size: .8rem;
+}
+
+
+
+.program-title{
+	font-weight: $bold;
+}
+
+@media (max-width: 575.98px) {
+	.container{
+		padding: 0 6%;
+	}
+}
+@media (min-width: 991.98px) {
+	section, footer{
+		padding: 5em 0;
+	}
+	#hero{
+		padding: 10vh 0 10vh !important ;
+		p{
+			font-size: 1.125rem;
+		}
+		#disclaimer{
+			font-size: .9em;
+			padding-bottom: 0;
+		}
+		#hero-img{
+			margin-top: -2em;
+		}
+	}
+	#cursos{
+		h2{
+			font-size: 2.25em;
+		}
+		h3{
+			font-size: 1.125em;
+		}
+		.card{
+			min-height: 380px;
+		}
+	}
+	#logo{
+		width: 100%;
+	}
+	#testimonales{
+		padding: 0em 0 4em;
+		.card{
+			background: $negro;
+			max-width: 97%;
+			margin: auto;
+			padding-bottom: 0;
+			cite{
+				padding: 1em 2em 2em 2em;
+				font-family: $work;
+				font-style: normal;
+			}
+			p{
+				color:#fff;
+				padding: 2em 2em 1em 2em;
+				font-size: 1.16rem;
+			}
+			.card-body{
+				padding: 0;
+			}
+		}
+	}
+	#contacto{
+		padding-top: 5em;
+		h3{
+			font-size: 2.25em;
+			text-align: left;
+		}
+	}
+}

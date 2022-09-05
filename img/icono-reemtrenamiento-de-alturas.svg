@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>reemtrenamiento-de-alturas</title>
+    <defs>
+        <circle id="path-1" cx="40" cy="40" r="40"></circle>
+        <filter color-interpolation-filters="auto" id="filter-3">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-240.000000, -1694.000000)">
+            <g id="reemtrenamiento-de-alturas" transform="translate(240.000000, 1694.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#276CFE" xlink:href="#path-1"></use>
+                <g filter="url(#filter-3)" id="streamline-icon-signal-tower-2@140x140">
+                    <g mask="url(#mask-2)">
+                        <g transform="translate(-27.000000, -5.000000)">
+                            <path d="M67.975,24.6175325 L67.975,15.2785714 M52.553125,40.1824675 L43.3,40.1824675 M60.2640625,26.7966234 L55.6375,18.7028571 M54.7121875,32.4 L46.6928125,27.7305195 M83.396875,40.1824675 L92.65,40.1824675 M75.6859375,26.7966234 L80.3125,18.7028571 M81.2378125,32.4 L89.2571875,27.7305195 M86.48125,83.7642857 L67.975,35.512987 L49.46875,83.7642857 M62.7315625,49.5214286 L73.2184375,49.5214286 M51.93625,77.5383117 L75.6859375,55.7474026 M84.01375,77.5383117 L60.2640625,55.7474026 M51.93625,77.5383117 L84.01375,77.5383117" id="Shape" stroke="#276CFE" stroke-width="2.58215982" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <polygon id="Path" stroke="none" points="0 0 141 0 141 141 0 141"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
